@@ -1,0 +1,23 @@
+# 대용량 원본/참고 자료 (PDF, 영상 등)
+docs/
+uploads/
+
+# 에디터 썸네일 캐시
+.thumbnail
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
+
+# OS / 에디터
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# 의존성 / 빌드
+node_modules/
+dist/
+build/
+*.log
