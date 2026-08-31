@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/랜딩페이지.dc.html" }
+  ]
+}

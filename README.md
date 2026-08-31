@@ -12,6 +12,7 @@
 | `assets/` | 로고, 멘토 사진, 비포애프터 이미지 |
 | `image-slot.js` | 이미지 슬롯 편집 스크립트 |
 | `support.js` | 캔버스 에디터 지원 스크립트 |
+| `vercel.json` | `/` → `랜딩페이지.dc.html` 리라이트 (시안 미리보기용) |
 
 ## 로컬에서 보기
 
@@ -42,3 +43,11 @@ npx serve .
 
 **문구나 디자인을 고칠 때는 메인 사이트 레포의 `page.tsx` 를 고쳐야 반영됩니다.**
 이 레포의 `.dc.html` 은 캔버스 에디터로 시안을 다시 만들 때만 씁니다.
+
+### Vercel 미리보기
+
+이 레포를 Vercel 에 붙이면 시안을 URL 로 볼 수 있습니다. 진입 파일명이 `index.html` 이
+아니라서 `vercel.json` 의 리라이트로 `/` 를 연결해뒀습니다. 없으면 404 가 납니다.
+빌드 설정은 필요 없습니다 (Framework Preset: Other, 빌드 커맨드 비움).
+
+어디까지나 **시안 확인용**이고, 광고에 실제로 태우는 URL 은 `https://mentorang.com/lp/coaching` 입니다.
